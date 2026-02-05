@@ -5,10 +5,11 @@ __pycache__/
 venv/
 .env
 
-# Data (uploads + manifest/results)
-data/raw_docs/
-data/processed/
-eval/results.jsonl
+# Data (ignore contents, keep folders)
+data/raw_docs/*
+data/processed/*
+!data/raw_docs/.gitkeep
+!data/processed/.gitkeep
 
 # Streamlit
 .streamlit/
