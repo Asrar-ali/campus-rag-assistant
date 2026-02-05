@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Data (uploads + manifest/results)
+data/raw_docs/
+data/processed/
+eval/results.jsonl
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
